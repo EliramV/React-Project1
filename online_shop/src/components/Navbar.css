@@ -1,0 +1,56 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.logoLink{
+    color: white; /* צבע הכתב ללבן */
+    text-decoration: none; /* להסיר קו תחתון */
+}
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.menu-item {
+    font-size: 24px;
+    font-weight: bold;
+
+    transition: color 0.3s, transform 0.3s; /* אנימציה בעת Hover */
+    margin: 0 20px; /* מרווח בין הפריטים בתפריט */
+    position: relative; /* לצורך האנימציה של הריחוף */
+}
+
+.menu-item:hover {
+    color: #ff6600;
+    transform: translateY(-5px); /* אנימציה של ריחוף */
+}
+.LinkSetting{
+    color: white; /* צבע הכתב ללבן */
+    text-decoration: none; /* להסיר קו תחתון */
+}
+.cart-icon {
+    cursor: pointer;
+    font-size: 28px; /* גודל האייקון */
+    transition: transform 0.3s; /* אנימציה בעת Hover */
+}
+
+.cart-icon:hover {
+    transform: scale(1.2); /* הגדלת האייקון בעת Hover */
+}
+.cart-link{
+    color: white; /* צבע הכתב ללבן */
+    text-decoration: none; /* להסיר קו תחתון */
+}
